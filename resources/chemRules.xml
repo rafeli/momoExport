@@ -1,0 +1,60 @@
+<?xml version="1.0" standalone="yes"?>
+<dataSet>
+  <Molecule>
+    <mgk> [C]1([N]([C]([C]2[C]([N][C]([H])[N]2[C]([H])([H])([H]))[N]1[C]([H])([H])([H]))[O])[C]([H])([H])([H]))[O]</mgk>
+    <csk> 
+  [C]([H])([H])([H])[N]1[C]2[C]([N]([C]([H])([H])([H]))[C]([N]([C]([H])([H])([H]))[C]=2[N]=[C]1([H]))=[O])=[O] </csk>
+   <tgk>10[C][N]1[C]([N]([C])[C]2[C]([C]1[O])[N]([C])[C][N]2)[O]</tgk>
+    <formula> C8H10N4O2</formula>
+    <name> coffein </name>
+<Geometry>
+  <ref> <Reference> obabel </Reference> </ref>
+  <xyz>C        0.97638        0.09714       -0.00253
+  H        0.61971       -0.40673       -0.87649
+  H        0.61971       -0.40780        0.87081
+  H        0.61972        1.10594       -0.00191
+  N        2.41088        0.09714       -0.00253
+  C        3.17748       -0.97418       -0.00319
+  C        2.93986       -2.41775       -0.00429
+  N        4.04985       -3.24355        0.00220
+  C        3.87917       -4.66780        0.01461
+  H        3.33642       -4.95436        0.89108
+  H        3.33542       -4.96946       -0.85616
+  H        4.83838       -5.14195        0.01815
+  C        5.33014       -2.70058       -0.00323
+  N        5.56497       -1.41465       -0.00212
+  C        6.92433       -0.95647       -0.00148
+  H        7.10138       -0.36385       -0.87461
+  H        7.10104       -0.36529        0.87269
+  H        7.58452       -1.79852       -0.00205
+  C        4.57243       -0.50840       -0.00156
+  N        4.51808        0.87155       -0.00059
+  C        3.22598        1.23622       -0.00117
+  H        2.88444        2.21007       -0.00068
+  O        6.28839       -3.46785       -0.00937
+  O        1.80170       -2.87766       -0.01073</xyz>
+</Geometry>
+  </Molecule>
+
+<Reference>
+  <objID> obabel </objID>
+  <name> OBabel -gen3D </name>
+  <type> calculated </type>
+  <tool> obabel </tool>
+  <version> 2.3.2. </version>
+</Reference>
+
+  <DFTSetting>
+    <basis> <Basis> XXXX </Basis>  </basis>
+    <xc> YYYY </xc>
+    <cosmo> 1 </cosmo>
+    <objID> xyz4711 </objID>
+    <mult> 1 </mult>
+  </DFTSetting>
+
+  <Basis>
+    <geometry> cartesian </geometry>
+    <objID> XXXX </objID>
+    <set> 6-31g** </set>
+  </Basis>
+</dataSet>
