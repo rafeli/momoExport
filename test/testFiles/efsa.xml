@@ -1,0 +1,1081 @@
+<?xml version="1.0" standalone="yes"?>
+<dataSet>
+
+<Calculation>
+  <tool> OBabel </tool>
+  <version> 2.3.2  </version>
+  <remark> possibly after Type substitution </remark> 
+  <objId> oBabelGeom </objId>
+</Calculation>
+
+<Molecule>
+<objId> water </objId>
+<name> water </name>
+<mgk> [O]([H])([H]) </mgk>
+<csk> [O]([H])([H]) </csk>
+</Molecule>
+
+<Molecule>
+<objId> hexane </objId>
+<name> hexane </name>
+<mgk> [C]([H])([H])([H])[C]([H])([H])[C]([H])([H])[C]([H])([H])[C]([H])([H])[C]([H])([H])([H]) </mgk>
+<csk> [C]([H])([H])([H])[C]([H])([H])[C]([H])([H])[C]([H])([H])[C]([H])([H])[C]([H])([H])([H]) </csk>
+</Molecule>
+
+<Molecule>
+<objId> heptane </objId>
+<name> heptane </name>
+<mgk> [C]([H])([H])([H])[C]([H])([H])[C]([H])([H])[C]([H])([H])[C]([H])([H])[C]([H])([H])[C]([H])([H])([H]) </mgk>
+<csk> [C]([H])([H])([H])[C]([H])([H])[C]([H])([H])[C]([H])([H])[C]([H])([H])[C]([H])([H])[C]([H])([H])([H]) </csk>
+</Molecule>
+
+<Molecule>
+<objId> 1-octanol </objId>
+<name> 1-octanol </name>
+<mgk> [C]([H])([H])([H])[C]([H])([H])[C]([H])([H])[C]([H])([H])[C]([H])([H])[C]([H])([H])[C]([H])([H])[C]([H])([H])[O]([H]) </mgk>
+<csk> [C]([H])([H])([H])[C]([H])([H])[C]([H])([H])[C]([H])([H])[C]([H])([H])[C]([H])([H])[C]([H])([H])[C]([H])([H])[O]([H]) </csk>
+</Molecule>
+
+<Molecule>
+<objId> toluene </objId>
+<name> toluene </name>
+</Molecule>
+
+<Molecule>
+<objId> xylene </objId>
+<name> xylene </name>
+</Molecule>
+
+<Molecule>
+<objId> ethyl acetate </objId>
+<name> ethyl acetate </name>
+</Molecule>
+
+<Molecule>
+<mgk>[C]1([N]([C]([C]2[C]([N][C]([H])[N]2[C]([H])([H])([H]))[N]1[C]([H])([H])([H]))[O])[C]([H])([H])([H]))[O]</mgk>
+<Geometry>
+  <ref>
+    <Calculation>oBabelGeom</Calculation>
+  </ref>
+  <xyz>C        1.05855       -0.03400       -0.07360
+  H        0.70188       -0.53786       -0.94755
+  H        0.70188       -0.53893        0.79975
+  H        0.70189        0.97481       -0.07298
+  N        2.49305       -0.03400       -0.07360
+  C        3.25965       -1.10531       -0.07425
+  C        3.02203       -2.54888       -0.07536
+  N        4.13202       -3.37468       -0.06886
+  C        3.96134       -4.79894       -0.05646
+  H        3.41859       -5.08550        0.82001
+  H        3.41759       -5.10059       -0.92722
+  H        4.92055       -5.27308       -0.05291
+  C        5.41231       -2.83172       -0.07429
+  N        5.64714       -1.54578       -0.07318
+  C        7.00650       -1.08761       -0.07255
+  H        7.18355       -0.49498       -0.94567
+  H        7.18321       -0.49643        0.80163
+  H        7.66669       -1.92966       -0.07311
+  C        4.65460       -0.63953       -0.07263
+  N        4.60025        0.74042       -0.07165
+  C        3.30815        1.10509       -0.07223
+  H        2.96661        2.07894       -0.07174
+  O        6.37056       -3.59898       -0.08043
+  O        1.88387       -3.00880       -0.08179</xyz>
+</Geometry>
+<objId>417</objId>
+<formula>C8H10N4O2</formula>
+<tgk>10[C][N]1[C]([N]([C])[C]2[C]([C]1[O])[N]([C])[C][N]2)[O]</tgk>
+<csk>[C]([H])([H])([H])[N]1[C]2[C]([N]([C]([H])([H])([H]))[C]([N]([C]([H])([H])([H]))[C]=2[N]=[C]1([H]))=[O])=[O]</csk>
+</Molecule>
+
+
+<Molecule>
+<mgk>[C]1([H])[C]([H])[C]([H])[C]2[C]([C]1([H]))[C]([N]([C]2[O])[S][C]([Cl])([Cl])[Cl])[O]</mgk>
+<Geometry>
+  <ref>
+    <Calculation>oBabelGeom</Calculation>
+  </ref>
+  <xyz>C       -2.01600        1.04300       -0.00000
+  C       -0.26300        0.73100       -0.00100
+  C        0.74700        1.53100       -0.00200
+  H        0.59091        2.55111       -0.00727
+  C        2.05600        1.02900        0.00400
+  H        2.86547        1.66908        0.01265
+  C        2.24300       -0.36300       -0.00200
+  H        3.19833       -0.75331       -0.00720
+  C        1.19100       -1.18200       -0.00100
+  H        1.34024       -2.20315       -0.00095
+  C       -0.13700       -0.66500       -0.00000
+  C       -1.24600       -1.42200        0.00100
+  N       -2.57700       -0.70400        0.00100
+  S       -4.17676       -1.34795        0.00174
+  C       -4.09922       -3.15629        0.00260
+ Cl       -3.23585       -3.71384       -1.45072
+ Cl       -3.23509       -3.71242        1.45601
+ Cl       -5.75046       -3.82097        0.00336
+  O       -1.18204       -2.64792        0.00188
+  O       -2.64922        2.09467        0.00002</xyz>
+</Geometry>
+<objId>419</objId>
+<formula>C9H4Cl3NO2S</formula>
+<tgk>4[C]1[C][C][C]2[C]([C]1)[C]([N]([C]2[O])[S][C]([Cl])([Cl])[Cl])[O]</tgk>
+<csk>[C]1([C]2=[C]([H])[C]([H])=[C]([H])[C]([H])=[C]([C]([N]1[S][C]([Cl])([Cl])[Cl])=[O])2)=[O]</csk>
+</Molecule>
+
+
+<Molecule>
+<mgk>[C]1([C]2([H])[C][C][C][C][C]([H])([C]([N]1[C][C][C]([N][C]1[C][C][C][C][C]1[Cl])[O])[O])2)[O]</mgk>
+<Geometry>
+  <ref>
+    <Calculation>oBabelGeom</Calculation>
+  </ref>
+  <xyz>Cl        0.97101       -0.06944        0.06586
+  C        2.71301       -0.06944        0.06586
+  C        3.43674        1.15311        0.14171
+  C        4.80904        1.16108       -0.15710
+  C        5.46526        0.04066       -0.23181
+  C        4.80721       -1.17528       -0.00399
+  C        3.39166       -1.21584       -0.00526
+  N        2.71694       -2.43625       -0.07977
+  C        1.32070       -2.46330       -0.08023
+  O        0.68645       -1.41427       -0.01514
+  C        0.60467       -3.75843       -0.15931
+  C       -0.89483       -3.51020       -0.14274
+  N       -1.58790       -4.76382       -0.21927
+  C       -3.07337       -5.00130       -0.38379
+  O       -3.95061       -4.14553       -0.45507
+  C       -3.24361       -6.33638       -0.43661
+  H       -4.23137       -6.73182       -0.55002
+  C       -4.52971       -7.01497       -0.67674
+  C       -4.42251       -8.45374       -0.16021
+  C       -3.17089       -9.10938       -0.75294
+  C       -1.92573       -8.47933       -0.11996
+  C       -2.03196       -7.01384       -0.24419
+  H       -1.82863       -8.05830       -0.35671
+  C       -0.99792       -6.15585       -0.15438
+  O        0.18961       -6.44586       -0.04197</xyz>
+</Geometry>
+<objId>421</objId>
+<formula>C17H2ClN2O3</formula>
+<tgk>2[C]1[C][C][C]2[C]([N]([C]([C]([C]1)2)[O])[C][C][C]([N][C]1[C][C][C][C][C]1[Cl])[O])[O]</tgk>
+<csk>[C]1([C]2([H])[C][C][C][C][C]([H])([C]([N]1[C][C][C]([N][C]1[C]=[C][C]=[C][C]=1[Cl])=[O])=[O])2)=[O]</csk>
+</Molecule>
+
+
+<Molecule>
+<mgk>[C]([H])([H])([H])[C]([H])([C]([H])([H])[O][C]1[C]([H])[C]([H])[C]([C]([H])[C]1([H]))[O][C]1[C]([H])[C]([H])[C]([H])[C]([H])[C]1([H]))[O][C]1[C]([H])[C]([H])[C]([H])[C]([H])[N]1</mgk>
+<Geometry>
+  <ref>
+    <Calculation>oBabelGeom</Calculation>
+  </ref>
+  <xyz>C        1.08037        0.00929        0.05877
+  H        0.72370       -0.08444       -0.94567
+  H        0.72370       -0.81371        0.64217
+  H        0.72371        0.92603        0.47982
+  C        2.60037        0.00929        0.05877
+  H        2.95704       -0.90745       -0.36227
+  C        3.10704        1.17842       -0.76998
+  H        2.75037        2.09516       -0.34893
+  H        4.17704        1.17842       -0.76997
+  O        2.64471        1.05691       -2.07199
+  C        2.97060        1.98710       -2.99305
+  C        3.10531        3.35480       -2.62504
+  H        3.30291        3.61365       -1.64577
+  C        2.96687        4.34936       -3.60700
+  H        2.84626        5.33579       -3.32870
+  C        2.99060        4.02761       -4.86694
+  C        3.16491        2.69028       -5.24720
+  H        3.41130        2.45561       -6.22149
+  C        3.00100        1.66262       -4.28673
+  H        2.90658        0.67852       -4.58278
+  O        2.84723        4.98258       -5.80889
+  C        2.87172        4.64981       -7.11597
+  C        1.91801        5.21342       -8.00870
+  H        1.36028        6.03404       -7.72486
+  C        1.74268        4.64252       -9.27988
+  H        0.91986        4.89455       -9.84951
+  C        2.61696        3.79632       -9.73938
+  H        2.48310        3.37144      -10.67028
+  C        3.74039        3.46081       -8.97207
+  H        4.54202        2.97923       -9.40853
+  C        3.76934        3.78643       -7.59418
+  H        4.47348        3.36265       -6.96999
+  O        3.06270        0.13080        1.36080
+  C        4.38898        0.15370        1.60624
+  C        5.06567        1.38826        1.81148
+  H        4.53032        2.25207        1.99111
+  C        6.46909        1.42037        1.76735
+  H        6.96245        2.32412        1.69771
+  C        7.14714        0.31149        1.81422
+  H        8.17806        0.33572        1.77381
+  C        6.47966       -0.91604        1.91951
+  H        6.99856       -1.76796        2.18409
+  N        5.08888       -0.98076        1.66073</xyz>
+</Geometry>
+<objId>423</objId>
+<formula>C20H19NO3</formula>
+<tgk>19[C]1[C][C][C]([C][C]1)[O][C]1[C][C][C]([C][C]1)[O][C][C]([C])[O][C]1[C][C][C][C][N]1</tgk>
+<csk>[C]([H])([H])([H])[C]([H])([C]([H])([H])[O][C]1=[C]([H])[C]([H])=[C]([C]([H])=[C]1([H]))[O][C]1=[C]([H])[C]([H])=[C]([H])[C]([H])=[C]1([H]))[O][C]1=[C]([H])[C]([H])=[C]([H])[C]([H])=[N]1</csk>
+</Molecule>
+
+
+<Molecule>
+<mgk>[C]1([N]([C]([C]2[C]([N][C]([H])[N]2[C]([H])([H])([H]))[N]1[C]([H])([H])([H]))[O])[C]([H])([H])([H]))[O]</mgk>
+<name>coffein</name>
+<objId>396</objId>
+<formula>C8H10N4O2</formula>
+<csk>[C]([H])([H])([H])[N]1[C]2[C]([N]([C]([H])([H])([H]))[C]([N]([C]([H])([H])([H]))[C]=2[N]=[C]1([H]))=[O])=[O]</csk>
+</Molecule>
+
+
+<Molecule>
+<mgk>[C][C]([C]1[C][C]([C][C][C]1)[C]([F])([F])[F])[N][O][C][C]1[C][C][C][C][C]1[C]([C]([O])[O][C])[N][O][C]</mgk>
+<Geometry>
+  <ref>
+    <Calculation>oBabelGeom</Calculation>
+  </ref>
+  <xyz>C        0.93153        0.00783        0.07246
+  C        2.41353        0.00783        0.07246
+  N        3.04894        1.10782        0.03701
+  O        2.39819        2.23437        0.00070
+  C        3.09169        3.43492       -0.03800
+  C        2.12864        4.56077       -0.07429
+  C        0.73497        4.30659       -0.20571
+  C       -0.12995        5.36287       -0.53546
+  C        0.28401        6.59302       -0.45226
+  C        1.58953        6.86733       -0.02353
+  C        2.54675        5.82444        0.01592
+  C        3.95281        6.12400        0.15160
+  N        4.33991        7.33143        0.23671
+  O        3.46906        8.29801        0.20157
+  C        3.89155        9.61583        0.29446
+  C        4.91901        5.05159        0.19058
+  O        4.54507        3.88523        0.10837
+  O        6.23256        5.33144        0.31734
+  C        7.16062        4.30135        0.35478
+  C        3.13553       -1.24206        0.11275
+  C        4.55642       -1.24636        0.04044
+  C        5.22951       -2.45162       -0.21813
+  C        4.59729       -3.58398       -0.12011
+  C        3.24703       -3.60449        0.25380
+  C        2.49289       -2.40638        0.21851
+  C        6.66059       -2.43310       -0.60280
+  F        7.36838       -3.12022        0.28927
+  F        6.80406       -2.98634       -1.80374
+  F        7.09365       -1.17610       -0.63916</xyz>
+</Geometry>
+<objId>Trifloxystrobin</objId>
+<formula>C20H19F3N2O4</formula>
+<tgk>0[C][C]([C]1[C][C]([C][C][C]1)[C]([F])([F])[F])[N][O][C][C]1[C][C][C][C][C]1[C]([C]([O])[O][C])[N][O][C]</tgk>
+<csk>[C][C]([C]1=[C][C]([C]([F])([F])[F])=[C][C]=[C]1)=[N][O][C][C]1=[C][C]=[C][C]=[C]1[C]([C]([O][C])=[O])=[N][O][C]</csk>
+<name>Trifloxystrobin</name>
+
+<MolProperty>
+  <unit>-</unit>
+  <name>log Pow</name>
+  <value>4.5</value>
+</MolProperty>
+<MolProperty>
+  <unit>g/L</unit>
+  <name>Solubility</name>
+  <temperature> 298K </temperature>
+  <solvent> <Molecule> water </Molecule> </solvent>
+  <value>0.61</value>
+</MolProperty>
+<MolProperty>
+  <unit>g/L</unit>
+  <name>Solubility</name>
+  <temperature> 298K </temperature>
+  <solvent> <Molecule> 1-octanol </Molecule> </solvent>
+  <value>18</value>
+</MolProperty>
+<MolProperty>
+  <unit>g/L</unit>
+  <temperature> 298K </temperature>
+  <name>Solubility</name>
+  <solvent> <Molecule> hexane </Molecule> </solvent>
+  <value>11</value>
+</MolProperty>
+<MolProperty>
+  <unit>g/L</unit>
+  <temperature> 298K </temperature>
+  <name>Solubility</name>
+  <solvent> <Molecule> toluene </Molecule> </solvent>
+  <value>500</value>
+</MolProperty>
+<MolProperty>
+  <unit>C</unit>
+  <name>Melting point</name>
+  <value>72.9</value>
+</MolProperty>
+<MolProperty>
+  <remark> thermal decomposition starts at about 285 C </remark>
+  <unit>C</unit>
+  <name>Boiling point</name>
+  <value>312</value>
+</MolProperty>
+<MolProperty>
+  <unit>mPa</unit>
+  <temperature> 298K </temperature>
+  <name>Vapour pressure </name>
+  <value>3.4E-03</value>
+</MolProperty>
+
+
+
+</Molecule>
+
+<Molecule>
+<mgk>[C]1([H])[C]([C]([H])[C]2[C]([C]1[Cl])[C]([C]([H])[C]([H])[N]2)[O][C]1[C]([H])[C]([H])[C]([C]([H])[C]1([H]))[F])[Cl]</mgk>
+<Geometry>
+  <ref>
+    <Calculation>oBabelGeom</Calculation>
+  </ref>
+  <xyz>C        2.40200       -0.69600       -0.00000
+  H        3.30034       -1.20394        0.00149
+  C        2.40000        0.70900       -0.00200
+  C        1.20700        1.41000        0.00400
+  H        1.21092        2.44196        0.01210
+  C       -0.00700        0.70900       -0.00100
+  C        0.00700       -0.71000       -0.00000
+  C        1.23800       -1.39400       -0.00000
+ Cl        1.26674       -3.13576        0.00000
+  C       -1.20700       -1.41200        0.00100
+  C       -2.40100       -0.70900        0.00100
+  H       -3.29675       -1.22150        0.00174
+  C       -2.40200        0.69800       -0.00000
+  H       -3.29984        1.20683        0.00003
+  N       -1.23800        1.39400       -0.00100
+  O       -1.21229       -2.76099        0.00195
+  C       -2.38320       -3.43090        0.00291
+  C       -2.41243       -4.84531        0.15383
+  H       -1.57401       -5.35190        0.47854
+  C       -3.59303       -5.54566       -0.14325
+  H       -3.57137       -6.57208       -0.24824
+  C       -4.71358       -4.90106       -0.28610
+  C       -4.74726       -3.50858       -0.13348
+  H       -5.64937       -3.02072       -0.01851
+  C       -3.53616       -2.77464       -0.13793
+  H       -3.54531       -1.74861       -0.24835
+  F       -5.79705       -5.54548       -0.56908
+ Cl        3.91129        1.57530       -0.01211</xyz>
+</Geometry>
+<objId>401</objId>
+<formula>C15H8Cl2FNO</formula>
+<tgk>8[C]1[C]([C][C]2[C]([C]1[Cl])[C]([C][C][N]2)[O][C]1[C][C][C]([C][C]1)[F])[Cl]</tgk>
+<csk>[C]1([H])[C](=[C]([H])[C]2[C]([C]=1[Cl])=[C]([C]([H])=[C]([H])[N]=2)[O][C]1=[C]([H])[C]([H])=[C]([C]([H])=[C]1([H]))[F])[Cl]</csk>
+
+
+<name>Quinoxyfen</name>
+
+<MolProperty>
+  <temperature> 293K </temperature>
+  <unit>-</unit>
+  <name>log Pow</name>
+  <value>5.1</value>
+</MolProperty>
+<MolProperty>
+  <unit>g/L</unit>
+  <name>Solubility</name>
+  <solvent> <Molecule> water </Molecule> </solvent>
+  <value>0.11E-03</value>
+</MolProperty>
+<MolProperty>
+  <unit>g/L</unit>
+  <name>Solubility</name>
+  <solvent> <Molecule> 1-octanol </Molecule> </solvent>
+  <value>31</value>
+</MolProperty>
+<MolProperty>
+  <unit>g/L</unit>
+  <temperature> 293K </temperature>
+  <name>Solubility</name>
+  <solvent> <Molecule> hexane </Molecule> </solvent>
+  <value>9.64</value>
+</MolProperty>
+<MolProperty>
+  <unit>g/L</unit>
+  <name>Solubility</name>
+  <solvent> <Molecule> ethyl acetate </Molecule> </solvent>
+  <value>127</value>
+</MolProperty>
+<MolProperty>
+  <unit>g/L</unit>
+  <name>Solubility</name>
+  <solvent> <Molecule> xylene </Molecule> </solvent>
+  <value>161</value>
+</MolProperty>
+<MolProperty>
+  <unit>g/L</unit>
+  <ref> pubchem </ref>
+  <name>Solubility</name>
+  <solvent> <Molecule> toluene </Molecule> </solvent>
+  <value>272</value>
+</MolProperty>
+<MolProperty>
+  <unit>C</unit>
+  <ref> pubchem </ref>
+  <name>Melting point</name>
+  <value>105.5</value>
+</MolProperty>
+<MolProperty>
+  <unit>C</unit>
+  <name>Boiling point</name>
+</MolProperty>
+<MolProperty>
+  <unit>mPa</unit>
+  <temperature> 298K </temperature>
+  <name>Vapour pressure </name>
+  <value>2.0E-02</value>
+</MolProperty>
+</Molecule>
+
+
+
+<Molecule>
+<mgk>[C]([C]1[C]([C]([C][N])[C]([C]([C]1[Cl])[Cl])[Cl])[Cl])[N]</mgk>
+<Geometry>
+  <ref>
+    <Calculation>oBabelGeom</Calculation>
+  </ref>
+  <xyz>C       -0.67900        1.19300        0.00100
+  C        0.70100        1.15500        0.00100
+  C        1.34600       -0.00100       -0.00200
+  C        0.70000       -1.15500        0.00100
+  C       -0.68100       -1.19200        0.00100
+  C       -1.38900        0.00100       -0.00200
+  C       -2.79499        0.00213       -0.00795
+  N       -3.94599        0.00306       -0.01282
+ Cl       -1.52258       -2.71722        0.00472
+  C        1.42724       -2.35830        0.00423
+  N        2.02260       -3.34338        0.00687
+ Cl        3.08798       -0.00222       -0.01010
+ Cl        1.60363        2.64490        0.00499
+ Cl       -1.51879        2.71921        0.00472</xyz>
+</Geometry>
+<objId>403</objId>
+<formula>C8Cl4N2</formula>
+<tgk>0[C]([C]1[C]([C]([C][N])[C]([C]([C]1[Cl])[Cl])[Cl])[Cl])[N]</tgk>
+<csk>[C]1([C](=[C]([C](=[C]([C]=1[C]#[N])[Cl])[C]#[N])[Cl])[Cl])[Cl]</csk>
+
+
+<name>Chlorothalonil</name>
+
+<MolProperty>
+  <unit>-</unit>
+  <name>log Pow</name>
+  <value>2.94</value>
+</MolProperty>
+<MolProperty>
+  <unit>g/L</unit>
+  <name>Solubility</name>
+  <temperature> 298K </temperature>
+  <solvent> <Molecule> water </Molecule> </solvent>
+  <value>0.81E-03</value>
+</MolProperty>
+<MolProperty>
+  <unit>g/L</unit>
+  <name>Solubility</name>
+  <temperature> 298K </temperature>
+  <solvent> <Molecule> 1-octanol </Molecule> </solvent>
+  <value>0.61</value>
+</MolProperty>
+<MolProperty>
+  <unit>g/L</unit>
+  <temperature> 298K </temperature>
+  <name>Solubility</name>
+  <solvent> <Molecule> hexane </Molecule> </solvent>
+  <value>0.18</value>
+</MolProperty>
+<MolProperty>
+  <unit>g/L</unit>
+  <temperature> 298K </temperature>
+  <name>Solubility</name>
+  <solvent> <Molecule> toluene </Molecule> </solvent>
+  <value>56</value>
+</MolProperty>
+<MolProperty>
+  <unit>C</unit>
+  <name>Melting point</name>
+  <value>252</value>
+</MolProperty>
+<MolProperty>
+  <remark> thermal decomposition starts at about 285 C </remark>
+  <unit>C</unit>
+  <name>Boiling point</name>
+  <value>347</value>
+</MolProperty>
+<MolProperty>
+  <unit>mPa</unit>
+  <temperature> 298K </temperature>
+  <name>Vapour pressure </name>
+  <value>7.62E-02</value>
+</MolProperty>
+
+
+
+</Molecule>
+
+
+<Molecule>
+<mgk>[C][O][P]([O][C])([O][C]1[C]([C][C]([C])[C][C]1[Cl])[Cl])[S]</mgk>
+<Geometry>
+  <ref>
+    <Calculation>oBabelGeom</Calculation>
+  </ref>
+  <xyz>C        0.90375       -0.01309       -0.02378
+  C        2.38575       -0.01309       -0.02378
+  C        3.08432        1.17765       -0.02229
+  C        4.40807        1.18546       -0.02246
+  C        5.10768        0.06316       -0.01797
+  C        4.47434       -1.16461       -0.01932
+  C        3.08782       -1.20978       -0.02528
+ Cl        5.40490       -2.63723       -0.01361
+  O        6.45556        0.11790       -0.01199
+  P        7.36299       -1.31609       -0.00619
+  S        6.88861       -2.44555        1.72404
+  O        6.98855       -2.24119       -1.41930
+  C        5.60415       -2.55711       -1.42512
+  O        9.04961       -0.93120        0.00091
+  C        9.80892       -2.13112        0.00577
+ Cl        5.24893        2.71106       -0.02876</xyz>
+</Geometry>
+<objId>405</objId>
+<formula>C9H11Cl2O3PS</formula>
+<tgk>0[C][O][P]([O][C])([O][C]1[C]([C][C]([C])[C][C]1[Cl])[Cl])[S]</tgk>
+<csk>[C][O][P]([O][C])([O][C]1=[C]([C]=[C]([C])[C]=[C]1[Cl])[Cl])[S]</csk>
+
+
+
+
+<name> Tolclofos-methyl </name>
+
+<MolProperty>
+  <unit>-</unit>
+  <name>log Pow</name>
+  <value>3.8</value>
+</MolProperty>
+<MolProperty>
+  <unit>g/L</unit>
+  <name>Solubility</name>
+  <temperature> 293K </temperature>
+  <solvent> <Molecule> water </Molecule> </solvent>
+  <value>0.708E-3</value>
+</MolProperty>
+<MolProperty>
+  <unit>g/L</unit>
+  <temperature> 298K </temperature>
+  <name>Solubility</name>
+  <solvent> <Molecule> hexane </Molecule> </solvent>
+  <value>12</value>
+</MolProperty>
+<MolProperty>
+  <unit>g/L</unit>
+  <temperature> 298K </temperature>
+  <name>Solubility</name>
+  <solvent> <Molecule> toluene </Molecule> </solvent>
+  <value>225</value>
+</MolProperty>
+<MolProperty>
+  <unit>C</unit>
+  <name>Melting point</name>
+  <value>79</value>
+</MolProperty>
+<MolProperty>
+  <remark> thermal decomposition starts before boiling </remark>
+  <unit>C</unit>
+  <name>Boiling point</name>
+</MolProperty>
+<MolProperty>
+  <unit>mPa</unit>
+  <temperature> 293K </temperature>
+  <name>Vapour pressure </name>
+  <value>0.877</value>
+</MolProperty>
+
+
+
+</Molecule>
+
+
+<Molecule>
+<mgk>[C]([H])([H])([H])[O][C]([N]([H])[C]([N]([H])[C]1[C]([H])[C]([H])[C]([H])[C]([H])[C]1[N]([H])[C]([N]([H])[C]([O])[O][C]([H])([H])([H]))[S])[S])[O]</mgk>
+<Geometry>
+  <ref>
+    <Calculation>oBabelGeom</Calculation>
+  </ref>
+  <xyz>C        0.91396        0.02475        0.04455
+  H        0.55729        0.21070       -0.94697
+  H        0.55729       -0.92691        0.37927
+  H        0.55730        0.79045        0.70135
+  O        2.30096        0.02475        0.04455
+  C        2.97546       -0.86199       -0.71607
+  N        2.27721       -1.77995       -1.50348
+  H        2.77721       -2.43728       -2.06732
+  C        0.88071       -1.77995       -1.50348
+  N        0.18246       -0.86199       -0.71607
+  H       -0.81754       -0.86199       -0.71607
+  C        0.88071        0.05597        0.07133
+  C        0.35919        1.37936        0.10034
+  H       -0.56227        1.58531       -0.31623
+  C        1.11017        2.40285        0.70122
+  H        0.85508        3.39034        0.54370
+  C        2.12697        2.10653        1.45612
+  H        2.68286        2.85955        1.89081
+  C        2.46861        0.76615        1.67994
+  H        3.11591        0.51612        2.44382
+  C        1.92046       -0.24338        0.85180
+  N        2.45964       -1.53160        0.85211
+  H        3.23907       -1.74725        1.44031
+  C        1.91033       -2.51865        0.03102
+  N        0.82185       -2.21749       -0.79040
+  H        0.42850       -2.92429       -1.37836
+  C        0.28267       -0.92927       -0.79071
+  O        0.76554       -0.06161       -0.06892
+  O       -0.76879       -0.63835       -1.58418
+  C       -1.30430        0.64110       -1.58449
+  H       -1.64778        0.88423       -0.60072
+  H       -0.55316        1.34206       -1.88339
+  H       -2.12507        0.68405       -2.26961
+  S        2.51447       -3.96207        0.03137
+  S        0.09834       -2.80851       -2.38574
+  O        4.20305       -0.86199       -0.71607</xyz>
+</Geometry>
+<objId>407</objId>
+<formula>C12H14N4O4S2</formula>
+<tgk>14[C][O][C]([N][C]([N][C]1[C][C][C][C][C]1[N][C]([N][C]([O])[O][C])[S])[S])[O]</tgk>
+<csk>[C]([H])([H])([H])[O][C]([N]([H])[C]([N]([H])[C]1=[C]([H])[C]([H])=[C]([H])[C]([H])=[C]1[N]([H])[C]([N]([H])[C](=[O])[O][C]([H])([H])([H]))=[S])=[S])=[O]</csk>
+
+
+
+
+
+
+
+<name>Thiophanate-methyl</name>
+
+<MolProperty>
+  <unit>-</unit>
+  <name>log Pow</name>
+  <value>1.40</value>
+</MolProperty>
+<MolProperty>
+  <unit>g/L</unit>
+  <name>Solubility</name>
+  <temperature> 293K </temperature>
+  <pH> 7.0 </pH>
+  <solvent> <Molecule> water </Molecule> </solvent>
+  <value>18.5E-03</value>
+</MolProperty>
+<MolProperty>
+  <unit>g/L</unit>
+  <name>Solubility</name>
+  <temperature> 298K </temperature>
+  <solvent> <Molecule> 1-octanol </Molecule> </solvent>
+  <value>0.18</value>
+</MolProperty>
+<MolProperty>
+  <unit>g/L</unit>
+  <temperature> 298K </temperature>
+  <name>Solubility</name>
+  <solvent> <Molecule> hexane </Molecule> </solvent>
+  <value>0.47E-03</value>
+</MolProperty>
+<MolProperty>
+  <unit>g/L</unit>
+  <temperature> 298K </temperature>
+  <name>Solubility</name>
+  <solvent> <Molecule> toluene </Molecule> </solvent>
+  <value>0.4</value>
+</MolProperty>
+<MolProperty>
+  <unit>C</unit>
+  <name>Melting point</name>
+  <remark> thermal decomposition </remark>
+</MolProperty>
+<MolProperty>
+  <remark> thermal decomposition </remark>
+  <unit>C</unit>
+  <name>Boiling point</name>
+</MolProperty>
+<MolProperty>
+  <unit>mPa</unit>
+  <name>Vapour pressure </name>
+</MolProperty>
+
+
+
+
+
+
+</Molecule>
+
+
+<Molecule>
+<mgk>[C][O][C]([C]12[C][C]3[C]([C]1[N][N]([C][O]2)[C]([N]([C]1[C][C][C]([C][C]1)[O][C]([F])([F])[F])[C]([O])[O][C])[O])[C][C][C]([C]3)[Cl])[O]</mgk>
+<Geometry>
+  <ref>
+    <Calculation>oBabelGeom</Calculation>
+  </ref>
+  <xyz>C        9.31140        1.38299       -2.02198
+  O        7.94793        1.13981       -2.09671
+  C        7.49868       -0.09669       -2.39511
+  O        8.29663       -1.00667       -2.60051
+  C        6.04182       -0.35653       -2.47495
+  C        5.41453        0.34190       -3.66061
+  C        4.46664        1.25817       -3.40590
+  C        4.10931        1.51966       -2.07600
+  C        5.13468        0.44385       -1.09538
+  N        5.59726       -4.33674       -2.56439
+  N        4.47960       -3.58269       -2.60974
+  C        4.57805       -2.15186       -2.58077
+  O        5.94437       -1.77289       -2.50363
+  C        3.22676       -4.19501       -2.68489
+  O        2.20969       -3.50882       -2.72616
+  N        3.13092       -5.58793       -2.71309
+  C        4.28793       -6.36853       -2.66615
+  C        4.44367       -7.42793       -3.60295
+  C        5.40777       -8.42129       -3.36568
+  C        6.32428       -8.23589       -2.46170
+  C        6.35812       -7.04105       -1.73051
+  C        5.23392       -6.17999       -1.74453
+  O        7.24348       -9.19512       -2.22771
+  C        8.22126       -8.99832       -1.26387
+  F        8.94614       -7.92886       -1.57962
+  F        7.64521       -8.80969       -0.08003
+  F        9.01003      -10.06771       -1.20773
+  C        1.87807       -6.20025       -2.78824
+  O        0.86100       -5.51406       -2.82951
+  O        1.78549       -7.54579       -2.81549
+  C        0.54116       -8.15395       -2.89013
+  C        3.21133        2.38140       -1.74265
+  C        2.53467        3.12302       -2.72125
+  C        2.84678        2.89768       -4.07198
+  C        3.77760        2.00360       -4.40612
+ Cl        2.01451        3.78979       -5.31538</xyz>
+</Geometry>
+<objId>409</objId>
+<formula>C22H17ClF3N3O7</formula>
+<tgk>0[C][O][C]([C]12[C][C]3[C]([C]1[N][N]([C][O]2)[C]([N]([C]1[C][C][C]([C][C]1)[O][C]([F])([F])[F])[C]([O])[O][C])[O])[C][C][C]([C]3)[Cl])[O]</tgk>
+<csk>[C][O][C]([C]12[C][C]3=[C]([C]1=[N][N]([C][O]2)[C]([N]([C]1=[C][C]=[C]([C]=[C]1)[O][C]([F])([F])[F])[C](=[O])[O][C])=[O])[C]=[C][C](=[C]3)[Cl])=[O]</csk>
+
+
+
+
+<name>Indoxacarb</name>
+
+<MolProperty>
+  <unit>-</unit>
+  <name>log Kow</name>
+  <value>4.65</value>
+</MolProperty>
+<MolProperty>
+  <unit>g/L</unit>
+  <name>Solubility</name>
+  <temperature> 298K </temperature>
+  <solvent> <Molecule> water </Molecule> </solvent>
+  <value>0.2E-03</value>
+</MolProperty>
+<MolProperty>
+  <unit>g/L</unit>
+  <name>Solubility</name>
+  <temperature> 293K </temperature>
+  <solvent> <Molecule> 1-octanol </Molecule> </solvent>
+  <value>11.31E-03</value>
+</MolProperty>
+<MolProperty>
+  <unit>g/L</unit>
+  <temperature> 298K </temperature>
+  <name>Solubility</name>
+  <solvent> <Molecule> hexane </Molecule> </solvent>
+  <value>1.31E-03</value>
+</MolProperty>
+<MolProperty>
+  <unit>C</unit>
+  <name>Melting point</name>
+  <value>88.1</value>
+</MolProperty>
+<MolProperty>
+  <remark> thermal decomposition </remark>
+  <unit>C</unit>
+  <name>Boiling point</name>
+</MolProperty>
+<MolProperty>
+  <unit>mPa</unit>
+  <temperature> 298K </temperature>
+  <name>Vapour pressure </name>
+  <value>1E-6</value>
+</MolProperty>
+
+
+
+</Molecule>
+
+
+<Molecule>
+<mgk>[C][C]1[C]([C]([C]([O])[O][C][C]([C]([O])[O]1)[N][C]([C]1[C]([C]([C][C][N]1)[O][C])[O][C][O][C]([C]([C])[C])[O])[O])[C][C]1[C][C][C][C][C]1)[O][C]([C]([C])[C])[O]</mgk>
+<Geometry>
+  <ref>
+    <Calculation>oBabelGeom</Calculation>
+  </ref>
+  <xyz>C        1.02213       -0.02164       -0.09509
+  C        2.54213       -0.02164       -0.09509
+  C        3.01226        1.37557        0.02705
+  C        2.68757        2.09466        1.35090
+  C        1.13111        2.07666        1.47447
+  O        0.32745        2.44113        0.62109
+  O        0.79421        1.51586        2.86781
+  C        1.27731        0.08280        3.18616
+  C        0.62467       -0.81732        2.06654
+  C        1.79912       -1.68165        1.53870
+  O        1.75669       -2.90850        1.53572
+  O        3.01900       -0.90535        1.01979
+  N       -0.40843       -1.64570        2.61817
+  C       -1.11611       -2.52201        1.79265
+  O       -0.85410       -2.58344        0.59492
+  C       -2.15605       -3.35587        2.34793
+  N       -2.02557       -4.66101        2.24387
+  C       -3.00081       -5.47010        2.81674
+  C       -3.75550       -4.90185        3.86719
+  C       -4.04138       -3.54220        3.75687
+  C       -3.25433       -2.79664        3.01045
+  O       -3.50946       -1.47816        2.88270
+  C       -2.68525       -0.68514        2.09813
+  O       -3.14474        0.62335        2.12069
+  C       -2.49501        1.57849        1.42401
+  O       -1.49707        1.28957        0.77007
+  C       -2.98597        2.97659        1.44811
+  C       -2.97467        3.49299        2.87765
+  C       -2.08272        3.84566        0.58830
+  O       -5.09843       -3.00373        4.39913
+  C       -5.36709       -1.64846        4.27732
+  C        3.31994        1.35952        2.52141
+  C        2.99552        2.06707        3.78254
+  C        2.44513        1.40997        4.91809
+  C        2.02908        2.17313        6.02129
+  C        2.38807        3.41904        6.12321
+  C        3.19894        3.99917        5.13865
+  C        3.36680        3.34355        3.89469
+  O        2.43667        2.10593       -1.00205
+  C        2.56998        1.69240       -2.27916
+  O        3.20072        0.66968       -2.53052
+  C        1.95496        2.47279       -3.37875
+  C        2.53161        3.87914       -3.38606
+  C        2.25158        1.79665       -4.70738</xyz>
+</Geometry>
+<objId>411</objId>
+<formula>C31N2O11</formula>
+<tgk>0[C][C]1[C]([C]([C]([O])[O][C][C]([C]([O])[O]1)[N][C]([C]1[C]([C]([C][C][N]1)[O][C])[O][C][O][C]([C]([C])[C])[O])[O])[C][C]1[C][C][C][C][C]1)[O][C]([C]([C])[C])[O]</tgk>
+<csk>[C][C]1[C]([C]([C](=[O])[O][C][C]([C](=[O])[O]1)[N][C]([C]1[C](=[C]([C]=[C][N]=1)[O][C])[O][C][O][C]([C]([C])[C])=[O])=[O])[C][C]1=[C][C]=[C][C]=[C]1)[O][C]([C]([C])[C])=[O]</csk>
+</Molecule>
+
+
+<Molecule>
+<mgk>[C]([H])([H])([H])[C]([H])([H])[O][C]([N]([H])[C]1[C]([H])[C]([C]([H])[C]([H])[C]1([H]))[O][C]([N]([H])[C]1[C]([H])[C]([H])[C]([H])[C]([H])[C]1([H]))[O])[O]</mgk>
+<Geometry>
+  <ref>
+    <Calculation>oBabelGeom</Calculation>
+  </ref>
+  <xyz>C        1.03703        0.00643       -0.09267
+  H        0.68036       -0.64717       -0.86111
+  H        0.68036       -0.33226        0.85758
+  H        0.68036        0.99872       -0.27448
+  C        2.55703        0.00643       -0.09267
+  H        2.91370       -0.98586        0.08914
+  H        2.91369        0.34512       -1.04292
+  O        3.01935        0.85366        0.90343
+  C        4.34564        1.01337        1.09120
+  N        5.25313        0.32567        0.28266
+  H        6.23629        0.44406        0.42186
+  C        4.78764       -0.52737       -0.72026
+  C        4.78995       -1.93243       -0.49668
+  H        4.78685       -2.30680        0.46502
+  C        4.79648       -2.80518       -1.59705
+  C        4.52805       -2.35405       -2.78700
+  H        4.54082       -2.99465       -3.59601
+  C        4.22153       -0.99933       -2.97197
+  H        3.79071       -0.68038       -3.85383
+  C        4.50639       -0.07043       -1.94170
+  H        4.49657        0.94370       -2.13270
+  O        5.08128       -4.11179       -1.41967
+  C        5.35973       -4.57993       -0.18553
+  N        5.35317       -3.71194        0.90844
+  H        5.55959       -4.05897        1.82330
+  C        5.05835       -2.35933        0.72481
+  C        4.23451       -1.93140       -0.35331
+  H        3.66426       -2.61449       -0.87602
+  C        4.20461       -0.57060       -0.69956
+  H        3.79140       -0.27593       -1.59814
+  C        4.69751        0.31830        0.11189
+  H        4.68211        1.31719       -0.14699
+  C        5.24942       -0.07856        1.33718
+  H        5.43087        0.61967        2.07514
+  C        5.55674       -1.44336        1.55694
+  H        6.15661       -1.72489        2.34810
+  O        5.61890       -5.76895       -0.02411
+  O        4.75483        1.76323        1.97282</xyz>
+</Geometry>
+<objId>413</objId>
+<formula>C16H16N2O4</formula>
+<tgk>16[C][C][O][C]([N][C]1[C][C]([C][C][C]1)[O][C]([N][C]1[C][C][C][C][C]1)[O])[O]</tgk>
+<csk>[C]([H])([H])([H])[C]([H])([H])[O][C]([N]([H])[C]1=[C]([H])[C](=[C]([H])[C]([H])=[C]1([H]))[O][C]([N]([H])[C]1=[C]([H])[C]([H])=[C]([H])[C]([H])=[C]1([H]))=[O])=[O]</csk>
+
+
+
+
+
+<name>Desmedipham</name>
+
+<MolProperty>
+  <unit>-</unit>
+  <name>log Pow</name>
+  <value>3.5</value>
+</MolProperty>
+<MolProperty>
+  <unit>g/L</unit>
+  <name>Solubility</name>
+  <temperature> 298K </temperature>
+  <solvent> <Molecule> water </Molecule> </solvent>
+  <value>0.007</value>
+</MolProperty>
+<MolProperty>
+  <unit>g/L</unit>
+  <temperature> 298K </temperature>
+  <name>Solubility</name>
+  <solvent> <Molecule> heptane </Molecule> </solvent>
+  <value>0.007</value>
+</MolProperty>
+<MolProperty>
+  <unit>g/L</unit>
+  <temperature> 298K </temperature>
+  <name>Solubility</name>
+  <solvent> <Molecule> toluene </Molecule> </solvent>
+  <value>1.5</value>
+</MolProperty>
+<MolProperty>
+  <unit>C</unit>
+  <name>Melting point</name>
+  <value>118.5</value>
+</MolProperty>
+<MolProperty>
+  <remark> boiled under decomposition </remark>
+  <unit>C</unit>
+  <name>Boiling point</name>
+  <value>300</value>
+</MolProperty>
+<MolProperty>
+  <unit>mPa</unit>
+  <temperature> 298K </temperature>
+  <name>Vapour pressure </name>
+  <value>4E-5</value>
+</MolProperty>
+
+
+</Molecule>
+
+
+<Molecule>
+<mgk>[C]([H])([H])([H])[C]1[C]([H])[C]([C]([H])[C]([H])[C]1([H]))[N]([H])[C]([O])[O][C]1[C]([H])[C]([H])[C]([H])[C]([C]1([H]))[N]([H])[C]([O])[O][C]([H])([H])([H])</mgk>
+<Geometry>
+  <ref>
+    <Calculation>oBabelGeom</Calculation>
+  </ref>
+  <xyz>C        1.02151       -0.01255       -0.09685
+  H        0.66484       -0.46189       -1.00006
+  H        0.66485       -0.57008        0.74389
+  H        0.66485        0.99432       -0.03438
+  C        2.50351       -0.01255       -0.09685
+  C        3.22724        1.21001       -0.02100
+  H        2.74835        2.08275        0.25102
+  C        4.59954        1.21798       -0.31980
+  C        5.25576        0.09755       -0.39451
+  H        6.26238        0.10406       -0.62187
+  C        4.59771       -1.11839       -0.16670
+  H        5.14145       -1.97934        0.00103
+  C        3.18215       -1.15894       -0.16797
+  H        2.68355       -2.06082       -0.22303
+  N        5.25966        2.42934       -0.53676
+  H        6.23674        2.43520       -0.74952
+  C        4.55527        3.63251       -0.45660
+  O        3.35581        3.62531       -0.19542
+  O        5.19294        4.80266       -0.66618
+  C        4.51251        5.96491       -0.58874
+  C        3.18457        5.97398       -0.71653
+  H        2.66666        5.09596       -0.87738
+  C        2.49483        7.21513       -0.62722
+  H        1.47037        7.23400       -0.50412
+  C        3.22124        8.41444       -0.70815
+  H        2.72721        9.30737       -0.86184
+  C        4.51633        8.40005       -0.58947
+  C        5.18818        7.19012       -0.37012
+  H        6.16963        7.19185       -0.05112
+  N        5.23826        9.59198       -0.68077
+  H        4.75943       10.45583       -0.83730
+  C        6.62887        9.57756       -0.55347
+  O        7.21668        8.51711       -0.36131
+  O        7.32625       10.72895       -0.64166
+  C        8.70740       10.71462       -0.51522
+  H        8.97365       10.32402        0.44469
+  H        9.12926       10.09760       -1.28087
+  H        9.08476       11.71118       -0.61196</xyz>
+</Geometry>
+<objId>415</objId>
+<formula>C16H16N2O4</formula>
+<tgk>16[C][C]1[C][C][C][C]([C]1)[N][C]([O])[O][C]1[C][C][C][C]([C]1)[N][C]([O])[O][C]</tgk>
+<csk>[C]([H])([H])([H])[C]1=[C]([H])[C](=[C]([H])[C]([H])=[C]1([H]))[N]([H])[C](=[O])[O][C]1=[C]([H])[C]([H])=[C]([H])[C](=[C]1([H]))[N]([H])[C](=[O])[O][C]([H])([H])([H])</csk>
+
+
+
+
+<name>Phenmedipham</name>
+
+<MolProperty>
+  <unit>-</unit>
+  <name>log Pow</name>
+  <value>2.7</value>
+</MolProperty>
+<MolProperty>
+  <unit>g/L</unit>
+  <name>Solubility</name>
+  <pH> 4 </pH>
+  <temperature> 298K </temperature>
+  <solvent> <Molecule> water </Molecule> </solvent>
+  <value>1.1E-03</value>
+</MolProperty>
+<MolProperty>
+  <unit>g/L</unit>
+  <temperature> 298K </temperature>
+  <name>Solubility</name>
+  <solvent> <Molecule> heptane </Molecule> </solvent>
+  <value>4.1E-03</value>
+</MolProperty>
+<MolProperty>
+  <unit>g/L</unit>
+  <temperature> 298K </temperature>
+  <name>Solubility</name>
+  <solvent> <Molecule> xylene </Molecule> </solvent>
+  <value>0.67</value>
+</MolProperty>
+<MolProperty>
+  <unit>C</unit>
+  <name>Melting point</name>
+  <value>148</value>
+</MolProperty>
+<MolProperty>
+  <remark> thermal decomposition  </remark>
+  <unit>C</unit>
+  <name>Boiling point</name>
+</MolProperty>
+<MolProperty>
+  <unit>mPa</unit>
+  <temperature> 298K </temperature>
+  <name>Vapour pressure </name>
+  <value>7E-07</value>
+</MolProperty>
+
+
+
+</Molecule>
+
+
+</dataSet>

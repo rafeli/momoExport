@@ -1,0 +1,88 @@
+<?xml version="1.0" standalone="yes"?>
+<dataSet>
+
+<Molecule>
+<mgk>[C]([H])([H])([H])[C]([H])([H])[O]([H])</mgk>
+<Geometry>
+  <dft>
+    <DFTSetting>95952</DFTSetting>
+  </dft>
+  <xyz>C	-1.16285561	0.03589080	-0.41501939
+H	-1.55732447	0.12346416	-1.42762896
+H	-1.53295601	-0.88926488	0.02652140
+H	-1.53295688	0.87150519	0.17879812
+C	0.34832076	0.03722970	-0.43048932
+H	0.71965228	-0.79944233	-1.03277543
+H	0.71965104	0.96487907	-0.88019613
+O	0.79321338	-0.07877779	0.91094371
+H	1.75332743	-0.07999199	0.92497369</xyz>
+</Geometry>
+<Geometry>
+  <dft>
+    <DFTSetting>95952</DFTSetting>
+  </dft>
+  <xyz>C	-1.18328283	0.03400885	-0.39171854
+H	-1.56617635	0.12248724	-1.40809855
+H	-1.54736947	-0.90216984	0.03263390
+H	-1.57394992	0.86567805	0.19636528
+C	0.32486072	0.05442935	-0.41356433
+H	0.70066543	-0.77721263	-1.01445362
+H	0.68401822	0.98381592	-0.86323259
+O	0.81151169	-0.05627008	0.93107919
+H	1.76859332	-0.11582812	0.87621553</xyz>
+</Geometry>
+<octet>OK</octet>
+<MolProperty>
+  <unit>A.U.</unit>
+  <dft>
+    <DFTSetting>95952</DFTSetting>
+  </dft>
+  <name>dipole_moment</name>
+  <value>9999.077377455</value>
+</MolProperty>
+<MolProperty>
+  <unit>Hartree?</unit>
+  <name>energy</name>
+  <value>-155.027225103956</value>
+</MolProperty>
+<MolProperty>
+  <unit>Hartree?</unit>
+  <name>energy</name>
+  <value>-155.035718595189</value>
+</MolProperty>
+<MolProperty>
+  <unit>A.U.</unit>
+  <dft>
+    <DFTSetting>95952</DFTSetting>
+  </dft>
+  <name>dipole_moment</name>
+  <value>0.6424369262</value>
+</MolProperty>
+<objId>95664</objId>
+<formula>C2H6O</formula>
+<tgk>6[C][C][O]</tgk>
+<csk>[C]([H])([H])([H])[C]([H])([H])[O]([H])</csk>
+</Molecule>
+
+
+<DFTSetting>
+<mult>1</mult>
+<objId>95952</objId>
+<xc>m06-2x</xc>
+<basis>
+  <Basis>20354</Basis>
+</basis>
+<cosmo>0</cosmo>
+</DFTSetting>
+
+
+<Basis>
+<set>def2-TZVP</set>
+<objId>20354</objId>
+<geometry>spherical</geometry>
+</Basis>
+
+
+
+
+</dataSet>
