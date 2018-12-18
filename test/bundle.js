@@ -1,1 +1,1 @@
-/home/rafel/programmieren/momo/export/test/bundle.js
+/home/rafel/programmieren/momo/test/bundle.js
