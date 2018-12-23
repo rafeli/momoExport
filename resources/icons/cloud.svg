@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created by:"Roy Pfund";
+	License:"http://creativecommons.org/licenses/publicdomain/"; -->
+<svg  xmlns="http://www.w3.org/2000/svg"  xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" version="1.1" id="svg2">
+  <defs>
+    <g id="cloud">
+      <path
+         d="M 200 450  L 300 450 C 600 450 500 -000 300 100 C 300 0 100 0 100 200 C 0 200 0 450 200 450
+         "
+    		 style="fill:#DDDDFF; stroke:#AAAAFF;stroke-width:12;
+                stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;
+                stroke-opacity:1;stroke-dasharray:none"   />
+    </g>
+  </defs>
+  <use xlink:href="#cloud" />
+</svg>
