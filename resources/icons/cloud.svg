@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created by:"Roy Pfund";
 	License:"http://creativecommons.org/licenses/publicdomain/"; -->
-<svg  xmlns="http://www.w3.org/2000/svg"  xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" version="1.1" id="svg2">
+<svg  xmlns="http://www.w3.org/2000/svg"   width="512" height="512" version="1.1" id="svg2">
   <defs>
     <g id="cloud">
       <path
@@ -12,5 +12,5 @@
                 stroke-opacity:1;stroke-dasharray:none"   />
     </g>
   </defs>
-  <use xlink:href="#cloud" />
+  <use href="#cloud" />
 </svg>
