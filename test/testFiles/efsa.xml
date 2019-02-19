@@ -57,7 +57,7 @@
   <ref>
     <Calculation>oBabelGeom</Calculation>
   </ref>
-  <xyz>
+  <xyz><![CDATA[
   C        1.05855       -0.03400       -0.07360
   H        0.70188       -0.53786       -0.94755
   H        0.70188       -0.53893        0.79975
@@ -82,7 +82,7 @@
   H        2.96661        2.07894       -0.07174
   O        6.37056       -3.59898       -0.08043
   O        1.88387       -3.00880       -0.08179
-</xyz>
+  ]]></xyz>
 </Geometry>
 <objId>417</objId>
 <formula>C8H10N4O2</formula>
@@ -97,7 +97,7 @@
   <ref>
     <Calculation>oBabelGeom</Calculation>
   </ref>
-  <xyz>
+  <xyz><![CDATA[
   C       -2.01600        1.04300       -0.00000
   C       -0.26300        0.73100       -0.00100
   C        0.74700        1.53100       -0.00200
@@ -118,7 +118,7 @@
  Cl       -5.75046       -3.82097        0.00336
   O       -1.18204       -2.64792        0.00188
   O       -2.64922        2.09467        0.00002
-  </xyz>
+  ]]></xyz>
 </Geometry>
 <objId>419</objId>
 <formula>C9H4Cl3NO2S</formula>
@@ -133,7 +133,7 @@
   <ref>
     <Calculation>oBabelGeom</Calculation>
   </ref>
-  <xyz>
+  <xyz><![CDATA[
   Cl        0.97101       -0.06944        0.06586
   C        2.71301       -0.06944        0.06586
   C        3.43674        1.15311        0.14171
@@ -159,7 +159,7 @@
   H       -1.82863       -8.05830       -0.35671
   C       -0.99792       -6.15585       -0.15438
   O        0.18961       -6.44586       -0.04197
-  </xyz>
+  ]]></xyz>
 </Geometry>
 <objId>421</objId>
 <formula>C17H2ClN2O3</formula>
@@ -174,7 +174,7 @@
   <ref>
     <Calculation>oBabelGeom</Calculation>
   </ref>
-  <xyz>
+  <xyz><![CDATA[
   C        1.08037        0.00929        0.05877
   H        0.72370       -0.08444       -0.94567
   H        0.72370       -0.81371        0.64217
@@ -218,7 +218,7 @@
   C        6.47966       -0.91604        1.91951
   H        6.99856       -1.76796        2.18409
   N        5.08888       -0.98076        1.66073
-  </xyz>
+  ]]></xyz>
 </Geometry>
 <objId>423</objId>
 <formula>C20H19NO3</formula>
@@ -242,7 +242,7 @@
   <ref>
     <Calculation>oBabelGeom</Calculation>
   </ref>
-  <xyz>
+  <xyz> <![CDATA[
   C        0.93153        0.00783        0.07246
   C        2.41353        0.00783        0.07246
   N        3.04894        1.10782        0.03701
@@ -272,7 +272,7 @@
   F        7.36838       -3.12022        0.28927
   F        6.80406       -2.98634       -1.80374
   F        7.09365       -1.17610       -0.63916
-</xyz>
+  ]]></xyz>
 </Geometry>
 <objId>Trifloxystrobin</objId>
 <formula>C20H19F3N2O4</formula>
@@ -341,7 +341,7 @@
   <ref>
     <Calculation>oBabelGeom</Calculation>
   </ref>
-  <xyz>
+  <xyz><![CDATA[
   C        2.40200       -0.69600       -0.00000
   H        3.30034       -1.20394        0.00149
   C        2.40000        0.70900       -0.00200
@@ -370,7 +370,7 @@
   H       -3.54531       -1.74861       -0.24835
   F       -5.79705       -5.54548       -0.56908
   Cl        3.91129        1.57530       -0.01211
-</xyz>
+]]></xyz>
 </Geometry>
 <objId>401</objId>
 <formula>C15H8Cl2FNO</formula>
@@ -450,7 +450,7 @@
   <ref>
     <Calculation>oBabelGeom</Calculation>
   </ref>
-  <xyz>
+  <xyz><![CDATA[
   C       -0.67900        1.19300        0.00100
   C        0.70100        1.15500        0.00100
   C        1.34600       -0.00100       -0.00200
@@ -465,7 +465,7 @@
  Cl        3.08798       -0.00222       -0.01010
  Cl        1.60363        2.64490        0.00499
  Cl       -1.51879        2.71921        0.00472
-</xyz>
+]]></xyz>
 </Geometry>
 <objId>403</objId>
 <formula>C8Cl4N2</formula>
@@ -537,7 +537,7 @@
   <ref>
     <Calculation>oBabelGeom</Calculation>
   </ref>
-  <xyz>
+  <xyz><![CDATA[
   C        0.90375       -0.01309       -0.02378
   C        2.38575       -0.01309       -0.02378
   C        3.08432        1.17765       -0.02229
@@ -554,7 +554,7 @@
   O        9.04961       -0.93120        0.00091
   C        9.80892       -2.13112        0.00577
   Cl        5.24893        2.71106       -0.02876
-</xyz>
+]]></xyz>
 </Geometry>
 <objId>405</objId>
 <formula>C9H11Cl2O3PS</formula>
@@ -620,7 +620,7 @@
   <ref>
     <Calculation>oBabelGeom</Calculation>
   </ref>
-  <xyz>
+  <xyz><![CDATA[
   C        0.91396        0.02475        0.04455
   H        0.55729        0.21070       -0.94697
   H        0.55729       -0.92691        0.37927
@@ -657,7 +657,7 @@
   S        2.51447       -3.96207        0.03137
   S        0.09834       -2.80851       -2.38574
   O        4.20305       -0.86199       -0.71607
-</xyz>
+]]></xyz>
 </Geometry>
 <objId>407</objId>
 <formula>C12H14N4O4S2</formula>
@@ -735,7 +735,7 @@
   <ref>
     <Calculation>oBabelGeom</Calculation>
   </ref>
-  <xyz>
+  <xyz><![CDATA[
   C        9.31140        1.38299       -2.02198
   O        7.94793        1.13981       -2.09671
   C        7.49868       -0.09669       -2.39511
@@ -772,7 +772,7 @@
   C        2.84678        2.89768       -4.07198
   C        3.77760        2.00360       -4.40612
   Cl        2.01451        3.78979       -5.31538
-</xyz>
+]]></xyz>
 </Geometry>
 <objId>409</objId>
 <formula>C22H17ClF3N3O7</formula>
@@ -838,7 +838,7 @@
   <ref>
     <Calculation>oBabelGeom</Calculation>
   </ref>
-  <xyz>
+  <xyz><![CDATA[
   C        1.02213       -0.02164       -0.09509
   C        2.54213       -0.02164       -0.09509
   C        3.01226        1.37557        0.02705
@@ -883,7 +883,7 @@
   C        1.95496        2.47279       -3.37875
   C        2.53161        3.87914       -3.38606
   C        2.25158        1.79665       -4.70738
-</xyz>
+]]></xyz>
 </Geometry>
 <objId>411</objId>
 <formula>C31N2O11</formula>
@@ -898,7 +898,7 @@
   <ref>
     <Calculation>oBabelGeom</Calculation>
   </ref>
-  <xyz>
+  <xyz><![CDATA[
   C        1.03703        0.00643       -0.09267
   H        0.68036       -0.64717       -0.86111
   H        0.68036       -0.33226        0.85758
@@ -937,7 +937,7 @@
   H        6.15661       -1.72489        2.34810
   O        5.61890       -5.76895       -0.02411
   O        4.75483        1.76323        1.97282
-</xyz>
+]]></xyz>
 </Geometry>
 <objId>413</objId>
 <formula>C16H16N2O4</formula>
@@ -1004,7 +1004,7 @@
   <ref>
     <Calculation>oBabelGeom</Calculation>
   </ref>
-  <xyz>
+  <xyz><![CDATA[
   C        1.02151       -0.01255       -0.09685
   H        0.66484       -0.46189       -1.00006
   H        0.66485       -0.57008        0.74389
@@ -1043,7 +1043,7 @@
   H        8.97365       10.32402        0.44469
   H        9.12926       10.09760       -1.28087
   H        9.08476       11.71118       -0.61196
-</xyz>
+]]></xyz>
 </Geometry>
 <objId>415</objId>
 <formula>C16H16N2O4</formula>
