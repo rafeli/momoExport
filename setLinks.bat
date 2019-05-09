@@ -1,6 +1,4 @@
 ::installiere momoExport
-git clone https://github.com/rafeli/momoExport
-cd momoExport
 del node_modules
 mklink /D node_modules ..\local\lib\node_modules
 
